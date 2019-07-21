@@ -25,20 +25,20 @@ public class TestClass1 {
     @Test
     public void Test1(){
         driver.navigate().to("https://www.google.com");
-        System.out.println("test1 title is: " + driver.getTitle());
+        System.out.println("test 1 title is: " + driver.getTitle());
         Assert.assertTrue(driver.getTitle().equals("Google");
     }
 
     @Test
     public void Test2(){
         driver.navigate().to("https://www.google.com");
-        System.out.println("test2 title is: " + driver.getTitle());
+        System.out.println("test 2 title is: " + driver.getTitle());
     }
 
     @Test
     public void Test3(){
         driver.navigate().to("https://www.google.com");
-        System.out.println("test3 title is: " + driver.getTitle());
+        System.out.println("test 3 title is: " + driver.getTitle());
     }
 
     @AfterMethod
